@@ -8,7 +8,7 @@
  * 
  *    const UUID = "在这里填入您的UUID";
  * 
- *    示例：const UUID = "fdeeda45-0a8e-4570-bcc6-d68c995f5830";
+ *    示例：const UUID = "6f60f968-09a6-43c8-8989-a90b24e4cac2";
  * 
  *    每次部署前请务必修改此值！
  * =========================================
@@ -20,12 +20,12 @@ import crypto from "crypto";
 
 // ================== 【手动设置 UUID】==================
 // 请将下方双引号内的值替换为您的 UUID
-const UUID = "fdeeda45-0a8e-4570-bcc6-d68c995f5830";  // 修改这里！
+const UUID = "6f60f968-09a6-43c8-8989-a90b24e4cac2";  // 修改这里！
 
 // 格式校验（防止错误）
 if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(UUID)) {
   console.error("\nUUID 格式错误！");
-  console.error("正确格式示例: fdeeda45-0a8e-4570-bcc6-d68c995f5830");
+  console.error("正确格式示例: 6f60f968-09a6-43c8-8989-a90b24e4cac2");
   console.error("当前值: " + UUID);
   process.exit(1);
 }
